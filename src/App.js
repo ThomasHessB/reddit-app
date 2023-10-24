@@ -39,16 +39,6 @@ function App() {
     },
   ];
 
-  const post = {
-    title: "Sample Post",
-    author: "User 1",
-    upvotes: 200,
-    category: "Technology",
-    thumbnail: "/path/to/thumbnail.png",
-    content: "This is the detailed content of the post.",
-    // Add comments data if needed
-  };
-
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
